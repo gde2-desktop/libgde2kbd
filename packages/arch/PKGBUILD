@@ -1,0 +1,30 @@
+# Maintainer: Brad Fanella <cesura@archlinux.org>
+# Contributor: Martin Wimpress <code@flexion.org>
+
+pkgname=libgde2kbd
+pkgver=1.0
+pkgrel=1
+pkgdesc="GnuDE2 keyboard library"
+url="https://mate-desktop.org"
+arch=('x86_64')
+license=('LGPL')
+depends=('gtk2' 'gettext' 'libxklavier') 
+makedepends=('python')
+source=("https://github.com/gde2-desktop/libgde2kbd/archive/master.tar.gz")
+sha256sums=('SKIP')
+
+build() {
+    	cd "$pkgname-master"
+    	./autogen.sh \
+        	--prefix=/usr 
+
+    	#https://bugzilla.gnome.org/show_bug.cgi?id=656231
+    	sed -i -e 's/ -shared / -Wl,-O1,--as-needed\0/g' libtool
+
+    	make
+}
+
+package_libgde2kbd() {
+	cd "${pkgname}-master"
+    	make DESTDIR="${pkgdir}" install
+}
