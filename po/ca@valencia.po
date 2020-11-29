@@ -1,0 +1,216 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Gil Forcada <gilforcada@guifi.net>, 2007-2010
+# Pilar Embid Giner <embid_mar@gva.es>, 2016
+msgid ""
+msgstr ""
+"Project-Id-Version: GDE2 Desktop Environment\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-09-09 12:55+0200\n"
+"PO-Revision-Date: 2016-09-08 06:23+0000\n"
+"Last-Translator: Jose Alfredo Murcia Andrés <joamuran@gmail.com>\n"
+"Language-Team: Catalan (Valencian) (http://www.transifex.com/gde2/GDE2/language/ca@valencia/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ca@valencia\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../libgde2kbd/gde2kbd-indicator.c:116 ../libgde2kbd/gde2kbd-status.c:310
+#, c-format
+msgid "There was an error loading an image: %s"
+msgstr "S'ha produït un error en carregar una imatge: %s"
+
+#: ../libgde2kbd/gde2kbd-indicator.c:699 ../libgde2kbd/gde2kbd-status.c:645
+msgid "XKB initialization error"
+msgstr "Error d'inicialització de l'XKB"
+
+#: ../libgde2kbd/gde2kbd-keyboard-drawing.c:2460
+#, c-format
+msgid ""
+"Keyboard layout \"%s\"\n"
+"Copyright &#169; X.Org Foundation and XKeyboardConfig contributors\n"
+"For licensing see package metadata"
+msgstr "Disposició de teclat «%s»\nCopyright &#169; la Fundació X.Org i els col·laboradors del XKeyboardConfig\nVegeu les metadades del paquet per a la llicència"
+
+#: ../libgde2kbd/gde2kbd-keyboard-drawing.c:2542
+msgid "Unknown"
+msgstr "Desconegut"
+
+#: ../libgde2kbd/gde2kbd-keyboard-drawing.c:2587
+#, c-format
+msgid "Keyboard Layout \"%s\""
+msgstr "Disposició del teclat «%s»"
+
+#: ../libgde2kbd/gde2kbd-keyboard-config.c:719
+#, c-format
+msgid "layout \"%s\""
+msgid_plural "layouts \"%s\""
+msgstr[0] "«%s» disposició"
+msgstr[1] "«%s» disposicions"
+
+#: ../libgde2kbd/gde2kbd-keyboard-config.c:737
+#, c-format
+msgid "option \"%s\""
+msgid_plural "options \"%s\""
+msgstr[0] "«%s» opció"
+msgstr[1] "«%s» opcions"
+
+#: ../libgde2kbd/gde2kbd-keyboard-config.c:745
+#, c-format
+msgid "model \"%s\", %s and %s"
+msgstr "model «%s, %s i %s»"
+
+#: ../libgde2kbd/gde2kbd-keyboard-config.c:746
+msgid "no layout"
+msgstr "no hi ha disposició"
+
+#: ../libgde2kbd/gde2kbd-keyboard-config.c:747
+msgid "no options"
+msgstr "no hi ha opcions"
+
+#: ../libgde2kbd/org.gde2.peripherals-keyboard-xkb.gschema.xml.in.h:1
+msgid "Keyboard model"
+msgstr "Model del teclat"
+
+#: ../libgde2kbd/org.gde2.peripherals-keyboard-xkb.gschema.xml.in.h:2
+msgid "keyboard model"
+msgstr "Model del teclat"
+
+#: ../libgde2kbd/org.gde2.peripherals-keyboard-xkb.gschema.xml.in.h:3
+msgid "Keyboard layout"
+msgstr "Disposició del teclat"
+
+#: ../libgde2kbd/org.gde2.peripherals-keyboard-xkb.gschema.xml.in.h:4
+msgid "keyboard layout"
+msgstr "Disposició del teclat"
+
+#: ../libgde2kbd/org.gde2.peripherals-keyboard-xkb.gschema.xml.in.h:5
+msgid "Keyboard options"
+msgstr "Opcions del teclat"
+
+#: ../libgde2kbd/org.gde2.peripherals-keyboard-xkb.gschema.xml.in.h:6
+msgid "Keyboard Update Handlers"
+msgstr "Gestors d'actualització del teclat"
+
+#: ../libgde2kbd/org.gde2.peripherals-keyboard-xkb.gschema.xml.in.h:7
+msgid ""
+"A collection of scripts to run whenever the keyboard state is reloaded. "
+"Useful for re-applying xmodmap based adjustments"
+msgstr "Una col·lecció d'scripts per a executar en qualsevol moment que es recarregue l'estat del teclat. Útil per a tornar a aplicar ajustaments basats en xmodmap"
+
+#: ../libgde2kbd/org.gde2.peripherals-keyboard-xkb.gschema.xml.in.h:8
+msgid "modmap file list"
+msgstr "llista de fitxers del modmap"
+
+#: ../libgde2kbd/org.gde2.peripherals-keyboard-xkb.gschema.xml.in.h:9
+msgid "A list of modmap files available in the $HOME directory."
+msgstr "Una llista de fitxers del modmap disponibles en el directori d'inici."
+
+#: ../libgde2kbd/org.gde2.peripherals-keyboard-xkb.gschema.xml.in.h:10
+msgid "Default group, assigned on window creation"
+msgstr "Grup predeterminat, s'assigna en la creació d'una finestra"
+
+#: ../libgde2kbd/org.gde2.peripherals-keyboard-xkb.gschema.xml.in.h:11
+msgid "Keep and manage separate group per window"
+msgstr "Mantín i gestiona un grup separat per finestra"
+
+#: ../libgde2kbd/org.gde2.peripherals-keyboard-xkb.gschema.xml.in.h:12
+msgid "Save/restore indicators together with layout groups"
+msgstr "Guarda/restaura els indicadors juntament amb els grups de disposició"
+
+#: ../libgde2kbd/org.gde2.peripherals-keyboard-xkb.gschema.xml.in.h:13
+msgid "Show layout names instead of group names"
+msgstr "Mostra els noms de les disposicions en comptes dels noms de grup"
+
+#: ../libgde2kbd/org.gde2.peripherals-keyboard-xkb.gschema.xml.in.h:14
+msgid ""
+"Show layout names instead of group names (only for versions of XFree "
+"supporting multiple layouts)"
+msgstr "Mostra els noms de les disposicions en comptes dels noms de grup (només per a les versions del XFree que permeten múltiples disposicions)"
+
+#: ../libgde2kbd/org.gde2.peripherals-keyboard-xkb.gschema.xml.in.h:15
+msgid "Load extra configuration items"
+msgstr "Carrega elements de configuració extra"
+
+#: ../libgde2kbd/org.gde2.peripherals-keyboard-xkb.gschema.xml.in.h:16
+msgid "Load exotic, rarely used layouts and options"
+msgstr "Carrega disposicions i opcions utilitzades rarament i exòtiques"
+
+#: ../libgde2kbd/org.gde2.peripherals-keyboard-xkb.gschema.xml.in.h:17
+msgid "Suppress the \"X sysconfig changed\" warning message"
+msgstr "Suprimeix el missatge d'avís «ha canviat l'X sysconfig»"
+
+#: ../libgde2kbd/org.gde2.peripherals-keyboard-xkb.gschema.xml.in.h:18
+msgid "Allow to disable the keyboard indicator tray icon"
+msgstr "Permet inhabilitar la icona de la safata de l'indicador del teclat"
+
+#: ../libgde2kbd/org.gde2.peripherals-keyboard-xkb.gschema.xml.in.h:19
+msgid "Show keyboard leds indicator"
+msgstr "Mostra l'indicador dels leds del teclat"
+
+#: ../libgde2kbd/org.gde2.peripherals-keyboard-xkb.gschema.xml.in.h:20
+msgid "The Keyboard Preview, X offset"
+msgstr "La previsualització del teclat, desplaçament horitzontal"
+
+#: ../libgde2kbd/org.gde2.peripherals-keyboard-xkb.gschema.xml.in.h:21
+msgid "The Keyboard Preview, Y offset"
+msgstr "La previsualització del teclat, desplaçament vertical"
+
+#: ../libgde2kbd/org.gde2.peripherals-keyboard-xkb.gschema.xml.in.h:22
+msgid "The Keyboard Preview, width"
+msgstr "La previsualització del teclat, amplària"
+
+#: ../libgde2kbd/org.gde2.peripherals-keyboard-xkb.gschema.xml.in.h:23
+msgid "The Keyboard Preview, height"
+msgstr "La previsualització del teclat, alçària"
+
+#: ../libgde2kbd/org.gde2.peripherals-keyboard-xkb.gschema.xml.in.h:24
+msgid "Secondary groups"
+msgstr "Grups secundaris"
+
+#: ../libgde2kbd/org.gde2.peripherals-keyboard-xkb.gschema.xml.in.h:25
+msgid "The font"
+msgstr "La lletra"
+
+#: ../libgde2kbd/org.gde2.peripherals-keyboard-xkb.gschema.xml.in.h:26
+msgid ""
+"The font for the layout indicator. This should be in \"[FAMILY-LIST] [STYLE-"
+"OPTIONS] [SIZE]\" format."
+msgstr "La lletra per a l'indicador de disposició. Ha d'estar en format \"[FAMILY-LIST] [STYLE-OPTIONS] [SIZE]\"."
+
+#: ../libgde2kbd/org.gde2.peripherals-keyboard-xkb.gschema.xml.in.h:27
+msgid "The foreground color"
+msgstr "El color de la lletra"
+
+#: ../libgde2kbd/org.gde2.peripherals-keyboard-xkb.gschema.xml.in.h:28
+msgid ""
+"The foreground color for the layout indicator. This should be in \"R G B\" "
+"format, for example \"255 0 0\"."
+msgstr "El color de la lletra per a l'indicador de disposició. Ha d'estar en format \"R G B\", per exemple \"255 0 0\"."
+
+#: ../libgde2kbd/org.gde2.peripherals-keyboard-xkb.gschema.xml.in.h:29
+msgid "The background color"
+msgstr "El color del fons"
+
+#: ../libgde2kbd/org.gde2.peripherals-keyboard-xkb.gschema.xml.in.h:30
+msgid ""
+"The background color for the layout indicator. This should be in \"R G B\" "
+"format, for example \"255 0 0\"."
+msgstr "El color del fons per a l'indicador de disposició. Ha d'estar en format \"R G B\", per exemple \"255 0 0\"."
+
+#: ../libgde2kbd/show-layout.ui.h:1
+msgid "Keyboard Layout"
+msgstr "Disposició del teclat"
+
+#: ../test/gde2kbd-indicator-test.c:55
+#, c-format
+msgid "Keyboard Indicator Test (%s)"
+msgstr "Prova de l'indicador del teclat (%s)"
+
+#: ../test/gde2kbd-indicator-test.c:63
+msgid "Indicator:"
+msgstr "Indicador:"

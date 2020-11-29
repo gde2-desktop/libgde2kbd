@@ -1,0 +1,216 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Asier Iturralde Sarasola <asier.iturralde@gmail.com>, 2012
+# Iñaki Larrañaga Murgoitio <dooteo@euskalgnu.org>, 2008, 2009, 2010
+msgid ""
+msgstr ""
+"Project-Id-Version: GDE2 Desktop Environment\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-09-09 12:55+0200\n"
+"PO-Revision-Date: 2015-09-06 18:41+0000\n"
+"Last-Translator: infirit <inactive+infirit@transifex.com>\n"
+"Language-Team: Basque (http://www.transifex.com/gde2/GDE2/language/eu/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: eu\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../libgde2kbd/gde2kbd-indicator.c:116 ../libgde2kbd/gde2kbd-status.c:310
+#, c-format
+msgid "There was an error loading an image: %s"
+msgstr "Errorea gertatu da irudi bat kargatzean: %s"
+
+#: ../libgde2kbd/gde2kbd-indicator.c:699 ../libgde2kbd/gde2kbd-status.c:645
+msgid "XKB initialization error"
+msgstr "Errorea XKB hasieratzean"
+
+#: ../libgde2kbd/gde2kbd-keyboard-drawing.c:2460
+#, c-format
+msgid ""
+"Keyboard layout \"%s\"\n"
+"Copyright &#169; X.Org Foundation and XKeyboardConfig contributors\n"
+"For licensing see package metadata"
+msgstr "Teklatuaren \"%s\" diseinua\nCopyright-a &#169; X.Org Fundazioa eta XKeyboardConfig-en laguntzaileak\nLizentziari buruz jakiteko ikusi paketearen metadatuak"
+
+#: ../libgde2kbd/gde2kbd-keyboard-drawing.c:2542
+msgid "Unknown"
+msgstr "Ezezaguna"
+
+#: ../libgde2kbd/gde2kbd-keyboard-drawing.c:2587
+#, c-format
+msgid "Keyboard Layout \"%s\""
+msgstr "\"%s\" teklatu-diseinua"
+
+#: ../libgde2kbd/gde2kbd-keyboard-config.c:719
+#, c-format
+msgid "layout \"%s\""
+msgid_plural "layouts \"%s\""
+msgstr[0] "\"%s\" diseinua"
+msgstr[1] "\"%s\" diseinuak"
+
+#: ../libgde2kbd/gde2kbd-keyboard-config.c:737
+#, c-format
+msgid "option \"%s\""
+msgid_plural "options \"%s\""
+msgstr[0] "\"%s\" aukera"
+msgstr[1] "\"%s\" aukerak"
+
+#: ../libgde2kbd/gde2kbd-keyboard-config.c:745
+#, c-format
+msgid "model \"%s\", %s and %s"
+msgstr "\"%s\" modeloa, %s eta %s"
+
+#: ../libgde2kbd/gde2kbd-keyboard-config.c:746
+msgid "no layout"
+msgstr "diseinurik ez"
+
+#: ../libgde2kbd/gde2kbd-keyboard-config.c:747
+msgid "no options"
+msgstr "aukerarik ez"
+
+#: ../libgde2kbd/org.gde2.peripherals-keyboard-xkb.gschema.xml.in.h:1
+msgid "Keyboard model"
+msgstr "Teklatu modeloa"
+
+#: ../libgde2kbd/org.gde2.peripherals-keyboard-xkb.gschema.xml.in.h:2
+msgid "keyboard model"
+msgstr "teklatu modeloa"
+
+#: ../libgde2kbd/org.gde2.peripherals-keyboard-xkb.gschema.xml.in.h:3
+msgid "Keyboard layout"
+msgstr "Teklatuaren diseinua"
+
+#: ../libgde2kbd/org.gde2.peripherals-keyboard-xkb.gschema.xml.in.h:4
+msgid "keyboard layout"
+msgstr "teklatuaren diseinua"
+
+#: ../libgde2kbd/org.gde2.peripherals-keyboard-xkb.gschema.xml.in.h:5
+msgid "Keyboard options"
+msgstr "Teklatuaren aukerak"
+
+#: ../libgde2kbd/org.gde2.peripherals-keyboard-xkb.gschema.xml.in.h:6
+msgid "Keyboard Update Handlers"
+msgstr "Teklatua eguneratzeko kudeatzaileak"
+
+#: ../libgde2kbd/org.gde2.peripherals-keyboard-xkb.gschema.xml.in.h:7
+msgid ""
+"A collection of scripts to run whenever the keyboard state is reloaded. "
+"Useful for re-applying xmodmap based adjustments"
+msgstr "Script bilduma teklatuaren egoera birkargatzean exekutatzeko. Erabilgarria xmodmap-en oinarritutako doiketak berriro aplikatzeko."
+
+#: ../libgde2kbd/org.gde2.peripherals-keyboard-xkb.gschema.xml.in.h:8
+msgid "modmap file list"
+msgstr "modmap fitxategien zerrenda"
+
+#: ../libgde2kbd/org.gde2.peripherals-keyboard-xkb.gschema.xml.in.h:9
+msgid "A list of modmap files available in the $HOME directory."
+msgstr "$HOME direktorioko 'modmap' fitxategi erabilgarrien zerrenda."
+
+#: ../libgde2kbd/org.gde2.peripherals-keyboard-xkb.gschema.xml.in.h:10
+msgid "Default group, assigned on window creation"
+msgstr "Talde lehenetsia (leihoa sortzean esleitutakoa)"
+
+#: ../libgde2kbd/org.gde2.peripherals-keyboard-xkb.gschema.xml.in.h:11
+msgid "Keep and manage separate group per window"
+msgstr "Mantendu eta kudeatu taldeak leihoko bereiztuta"
+
+#: ../libgde2kbd/org.gde2.peripherals-keyboard-xkb.gschema.xml.in.h:12
+msgid "Save/restore indicators together with layout groups"
+msgstr "Gorde/Leheneratu adierazleak diseinu-taldeekin batera"
+
+#: ../libgde2kbd/org.gde2.peripherals-keyboard-xkb.gschema.xml.in.h:13
+msgid "Show layout names instead of group names"
+msgstr "Erakutsi diseinuen izenak talde-izenen ordez"
+
+#: ../libgde2kbd/org.gde2.peripherals-keyboard-xkb.gschema.xml.in.h:14
+msgid ""
+"Show layout names instead of group names (only for versions of XFree "
+"supporting multiple layouts)"
+msgstr "Erakutsi diseinuen izenak taldeen izenen ordez (hainbat diseinu onartzen duen XFree bertsioan soilik)"
+
+#: ../libgde2kbd/org.gde2.peripherals-keyboard-xkb.gschema.xml.in.h:15
+msgid "Load extra configuration items"
+msgstr "Kargatu konfigurazioko elementu gehigarriak"
+
+#: ../libgde2kbd/org.gde2.peripherals-keyboard-xkb.gschema.xml.in.h:16
+msgid "Load exotic, rarely used layouts and options"
+msgstr "Kargatu diseinu eta aukera exotikoak (oso gutxi erabilitakoak)"
+
+#: ../libgde2kbd/org.gde2.peripherals-keyboard-xkb.gschema.xml.in.h:17
+msgid "Suppress the \"X sysconfig changed\" warning message"
+msgstr "Kendu \"Xen sysconfig-a aldatuta\" abisuaren mezua"
+
+#: ../libgde2kbd/org.gde2.peripherals-keyboard-xkb.gschema.xml.in.h:18
+msgid "Allow to disable the keyboard indicator tray icon"
+msgstr ""
+
+#: ../libgde2kbd/org.gde2.peripherals-keyboard-xkb.gschema.xml.in.h:19
+msgid "Show keyboard leds indicator"
+msgstr ""
+
+#: ../libgde2kbd/org.gde2.peripherals-keyboard-xkb.gschema.xml.in.h:20
+msgid "The Keyboard Preview, X offset"
+msgstr "Teklatuaren aurrebista, X desplazamendua"
+
+#: ../libgde2kbd/org.gde2.peripherals-keyboard-xkb.gschema.xml.in.h:21
+msgid "The Keyboard Preview, Y offset"
+msgstr "Teklatuaren aurrebista, Y desplazamendua"
+
+#: ../libgde2kbd/org.gde2.peripherals-keyboard-xkb.gschema.xml.in.h:22
+msgid "The Keyboard Preview, width"
+msgstr "Teklatuaren aurrebista, zabalera"
+
+#: ../libgde2kbd/org.gde2.peripherals-keyboard-xkb.gschema.xml.in.h:23
+msgid "The Keyboard Preview, height"
+msgstr "Teklatuaren aurrebista, altuera"
+
+#: ../libgde2kbd/org.gde2.peripherals-keyboard-xkb.gschema.xml.in.h:24
+msgid "Secondary groups"
+msgstr "Bigarren mailako taldeak"
+
+#: ../libgde2kbd/org.gde2.peripherals-keyboard-xkb.gschema.xml.in.h:25
+msgid "The font"
+msgstr ""
+
+#: ../libgde2kbd/org.gde2.peripherals-keyboard-xkb.gschema.xml.in.h:26
+msgid ""
+"The font for the layout indicator. This should be in \"[FAMILY-LIST] [STYLE-"
+"OPTIONS] [SIZE]\" format."
+msgstr ""
+
+#: ../libgde2kbd/org.gde2.peripherals-keyboard-xkb.gschema.xml.in.h:27
+msgid "The foreground color"
+msgstr "Aurreko planoaren kolorea"
+
+#: ../libgde2kbd/org.gde2.peripherals-keyboard-xkb.gschema.xml.in.h:28
+msgid ""
+"The foreground color for the layout indicator. This should be in \"R G B\" "
+"format, for example \"255 0 0\"."
+msgstr ""
+
+#: ../libgde2kbd/org.gde2.peripherals-keyboard-xkb.gschema.xml.in.h:29
+msgid "The background color"
+msgstr "Atzeko planoaren kolorea"
+
+#: ../libgde2kbd/org.gde2.peripherals-keyboard-xkb.gschema.xml.in.h:30
+msgid ""
+"The background color for the layout indicator. This should be in \"R G B\" "
+"format, for example \"255 0 0\"."
+msgstr ""
+
+#: ../libgde2kbd/show-layout.ui.h:1
+msgid "Keyboard Layout"
+msgstr "Teklatu-diseinua"
+
+#: ../test/gde2kbd-indicator-test.c:55
+#, c-format
+msgid "Keyboard Indicator Test (%s)"
+msgstr "Teklatu-adierazlearen proba (%s)"
+
+#: ../test/gde2kbd-indicator-test.c:63
+msgid "Indicator:"
+msgstr "Adierazlea:"

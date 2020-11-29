@@ -1,0 +1,7 @@
+[main]
+host = https://www.transifex.com
+
+[GDE2.libgde2kbd]
+file_filter = po/<lang>.po
+source_file = po/libgde2kbd.pot
+source_lang = en

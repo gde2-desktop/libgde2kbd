@@ -1,0 +1,10 @@
+libgde2kbd/gde2kbd-desktop-config.c
+libgde2kbd/gde2kbd-indicator.c
+libgde2kbd/gde2kbd-indicator-config.c
+libgde2kbd/gde2kbd-keyboard-drawing.c
+libgde2kbd/gde2kbd-keyboard-config.c
+libgde2kbd/gde2kbd-status.c
+libgde2kbd/gde2kbd-util.c
+[type: gettext/gsettings]libgde2kbd/org.gde2.peripherals-keyboard-xkb.gschema.xml.in
+[type: gettext/glade]libgde2kbd/show-layout.ui
+test/gde2kbd-indicator-test.c
